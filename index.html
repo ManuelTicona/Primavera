@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Feliz Primavera</title>
+    <style>
+      body {
+        margin: 0;
+        overflow: hidden;
+        position: relative;
+        background-image: url("https://imgs.search.brave.com/wnUGcWQCYO7GZOir3jet9va93f9SnLYocgfg9TMsy1w/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/dmVjdG9yLXByZW1p/dW0vcGF0cm9uLWNv/c3R1cmFzLWxpbmRv/LWVyaXpvLWVzdGls/by1kaWJ1am9zLWFu/aW1hZG9zLWFuaW1h/bGVzLWJvc3F1ZS1p/bHVzdHJhY2lvbi12/ZWN0b3JpYWxfNjUx/MTgyLTY4Ni5qcGc_/c2l6ZT02MjYmZXh0/PWpwZw");
+        background-size: cover;
+        height: 100vh;
+        color: rgb(255, 0, 234);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+
+      h1 {
+        position: absolute;
+        top: 20px;
+        font-size: 3em;
+        text-align: center;
+      }
+
+      .sunflower {
+        position: absolute;
+        bottom: 100%;
+        animation: fall 5s linear infinite;
+        width: 50px; /* Ajusta el tamaño */
+      }
+
+      .hedgehog {
+        position: absolute;
+        bottom: 30%; /* Ajusta la posición vertical */
+        width: 150px; /* Ajusta el tamaño */
+      }
+
+      .friend-text {
+        position: absolute;
+        top: 40%; /* Ajusta la posición vertical */
+        font-size: 3em; /* Tamaño del texto */
+        font-weight: bold; /* Resaltado */
+        text-align: center;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Sombra para mejor legibilidad */
+        color: gold; /* Color del texto */
+      }
+
+      @keyframes fall {
+        0% {
+          bottom: 100%;
+          opacity: 1;
+        }
+        100% {
+          bottom: -10%;
+          opacity: 0;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Feliz Primavera</h1>
+    <img
+      src="https://imgs.search.brave.com/NL3OFHXT7vZE-JDXvsqmxGpp1pUO3djwOSub6YeL4RE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9ibG9n/Z2VyLmdvb2dsZXVz/ZXJjb250ZW50LmNv/bS9pbWcvYi9SMjl2/WjJ4bC9BVnZYc0Vp/OERkYnJiYmZFREEz/RjgyOFN0OGtwQ2la/Mnd3Y0ZXYVVUN001/QTVmVk45WTdhMUdm/WHN6MG85ZjZ4cWxW/UjNfanVKLUlEY2xQ/MWcxQXk0NzlXNllN/M01zRzJSNFIyd2Vl/MDZjWlo5elh0MnhK/XzBNUUxtZXUtdGRT/d0NaY2tpS3NyQVky/bklaRlZQeHMvdzY0/MC1oNjIwLXJ3L3N1/bmZsb3dlci1jbGlw/YXJ0LWRyYXdpbmct/aW1hZ2VzLXBpY3R1/cmVzLXBuZy15ZWxs/b3crJTI4NjAlMjku/cG5n"
+      class="sunflower"
+      style="left: 10%; animation-delay: 0s"
+    />
+    <img
+      src="https://imgs.search.brave.com/y6BBfPlEqYCALyNNGtNrUr-ldI1OnuyvZJUkjlHAEjI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/cGl4YWJheS5jb20v/cGhvdG8vMjAxNy8w/OS8wMS8wMC8xNS9w/bmctMjcwMjY5MV8x/MjgwLnBuZw"
+      class="sunflower"
+      style="left: 30%; animation-delay: 1s"
+    />
+    <img
+      src="https://imgs.search.brave.com/NL3OFHXT7vZE-JDXvsqmxGpp1pUO3djwOSub6YeL4RE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9ibG9n/Z2VyLmdvb2dsZXVz/ZXJjb250ZW50LmNv/bS9pbWcvYi9SMjl2/WjJ4bC9BVnZYc0Vp/OERkYnJiYmZFREEz/RjgyOFN0OGtwQ2la/Mnd3Y0ZXYVVUN001/QTVmVk45WTdhMUdm/WHN6MG85ZjZ4cWxW/UjNfanVKLUlEY2xQ/MWcxQXk0NzlXNllN/M01zRzJSNFIyd2Vl/MDZjWlo5elh0MnhK/XzBNUUxtZXUtdGRT/d0NaY2tpS3NyQVky/bklaRlZQeHMvdzY0/MC1oNjIwLXJ3L3N1/bmZsb3dlci1jbGlw/YXJ0LWRyYXdpbmct/aW1hZ2VzLXBpY3R1/cmVzLXBuZy15ZWxs/b3crJTI4NjAlMjku/cG5n"
+      class="sunflower"
+      style="left: 50%; animation-delay: 2s"
+    />
+    <img
+      src="https://imgs.search.brave.com/NL3OFHXT7vZE-JDXvsqmxGpp1pUO3djwOSub6YeL4RE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9ibG9n/Z2VyLmdvb2dsZXVz/ZXJjb250ZW50LmNv/bS9pbWcvYi9SMjl2/WjJ4bC9BVnZYc0Vp/OERkYnJiYmZFREEz/RjgyOFN0OGtwQ2la/Mnd3Y0ZXYVVUN001/QTVmVk45WTdhMUdm/WHN6MG85ZjZ4cWxW/UjNfanVKLUlEY2xQ/MWcxQXk0NzlXNllN/M01zRzJSNFIyd2Vl/MDZjWlo5elh0MnhK/XzBNUUxtZXUtdGRT/d0NaY2tpS3NyQVky/bklaRlZQeHMvdzY0/MC1oNjIwLXJ3L3N1/bmZsb3dlci1jbGlw/YXJ0LWRyYXdpbmct/aW1hZ2VzLXBpY3R1/cmVzLXBuZy15ZWxs/b3crJTI4NjAlMjku/cG5n"
+      class="sunflower"
+      style="left: 70%; animation-delay: 3s"
+    />
+    <img
+      src="https://imgs.search.brave.com/NL3OFHXT7vZE-JDXvsqmxGpp1pUO3djwOSub6YeL4RE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9ibG9n/Z2VyLmdvb2dsZXVz/ZXJjb250ZW50LmNv/bS9pbWcvYi9SMjl2/WjJ4bC9BVnZYc0Vp/OERkYnJiYmZFREEz/RjgyOFN0OGtwQ2la/Mnd3Y0ZXYVVUN001/QTVmVk45WTdhMUdm/WHN6MG85ZjZ4cWxW/UjNfanVKLUlEY2xQ/MWcxQXk0NzlXNllN/M01zRzJSNFIyd2Vl/MDZjWlo5elh0MnhK/XzBNUUxtZXUtdGRT/d0NaY2tpS3NyQVky/bklaRlZQeHMvdzY0/MC1oNjIwLXJ3L3N1/bmZsb3dlci1jbGlw/YXJ0LWRyYXdpbmct/aW1hZ2VzLXBpY3R1/cmVzLXBuZy15ZWxs/b3crJTI4NjAlMjku/cG5n"
+      class="sunflower"
+      style="left: 90%; animation-delay: 4s"
+    />
+
+    <img
+      src="https://imgs.search.brave.com/NL3OFHXT7vZE-JDXvsqmxGpp1pUO3djwOSub6YeL4RE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9ibG9n/Z2VyLmdvb2dsZXVz/ZXJjb250ZW50LmNv/bS9pbWcvYi9SMjl2/WjJ4bC9BVnZYc0Vp/OERkYnJiYmZFREEz/RjgyOFN0OGtwQ2la/Mnd3Y0ZXYVVUN001/QTVmVk45WTdhMUdm/WHN6MG85ZjZ4cWxW/UjNfanVKLUlEY2xQ/MWcxQXk0NzlXNllN/M01zRzJSNFIyd2Vl/MDZjWlo5elh0MnhK/XzBNUUxtZXUtdGRT/d0NaY2tpS3NyQVky/bklaRlZQeHMvdzY0/MC1oNjIwLXJ3L3N1/bmZsb3dlci1jbGlw/YXJ0LWRyYXdpbmct/aW1hZ2VzLXBpY3R1/cmVzLXBuZy15ZWxs/b3crJTI4NjAlMjku/cG5n"
+      class="hedgehog"
+    />
+
+    <div class="friend-text">Sos la mejor amiga del mundo</div>
+  </body>
+</html>
